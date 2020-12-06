@@ -1,0 +1,162 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.one-sentence-about {
+    font-family: 'Rajdhani',sans-serif;
+    font-size: larger;
+}
+
+.logo {
+    margin-bottom: 80px;
+}
+
+/* Group*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+/* Site Navigation */
+.site-nav a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid rgb(199, 199, 199);
+    border-bottom: none;
+    transition-property: color, border-color, background-color;
+    transition-duration: 2s;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a:hover {
+    background-color: #00B0F0;
+    color: white;
+    border-color: #00B0F0;
+}
+
+/* Content Area */
+
+.content-title {
+    text-align: right;
+}
+
+.first {
+    margin-top: 20px;
+}
+
+h4 {
+    color: gray;
+}
+
+.first h4:hover {
+    color: springgreen;
+}
+
+.second h4:hover {
+    color: tomato;
+}
+
+.third h4:hover {
+    color: slateblue;
+}
+
+.first,
+.second,
+.third {
+    font-family: 'castoro', sans-serif;
+    color: slategray;
+}
+
+/* Investments Links */
+
+.investments ul {
+    margin: 0;
+    padding: 0;
+}
+
+.investments li {
+    float: left;
+    list-style: none;
+}
+
+.investments a {
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(investments.png);
+    background-position: 100px 0;
+    text-indent: -9999px;
+}
+
+.btc a:hover {
+    background-position: 0px 0px;
+}
+
+.eth a {background-position: -100px -100px;}
+.eth a:hover {background-position: 0px -100px;}
+
+/* Footer Area */
+
+.footer-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-top: 2px solid #00B0F0;
+}
+
+.social-media-links {
+    margin-bottom: 30px;
+}
+
+.social-media-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-links li {
+    list-style: none;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(Medium\ \(logo\).png);
+    background-position: 30px 0;
+    text-indent: -9999px;
+}
+
+.Medium a:hover {
+    background-position: 0 0;
+}

@@ -1,0 +1,165 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.one-sentence-about {
+    font-family: 'Rajdhani',sans-serif;
+    font-size: larger;
+}
+
+.logo {
+    margin-bottom: 80px;
+}
+
+/* Group*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+/* Site Navigation */
+.site-nav a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid rgb(199, 199, 199);
+    border-bottom: none;
+    transition-property: color, border-color, background-color;
+    transition-duration: 2s;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a:hover {
+    background-color: #00B0F0;
+    color: white;
+    border-color: #00B0F0;
+}
+
+/* Content Area */
+
+.content-title {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.section1 {
+    margin-bottom: 100px;
+}
+
+.section1,
+.section2 {
+    font-family: 'castoro', sans-serif;
+    color: slategray;
+}
+
+/* YUEDU Area */
+
+.yuedu-links {
+    margin-top: 30px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh {
+    margin-bottom: 70px;
+}
+
+h2 {
+    color: black;
+}
+
+.first h2:hover {
+    color: springgreen;
+}
+
+.second h2:hover {
+    color: tomato;
+}
+
+.third h2:hover {
+    color: slateblue;
+}
+
+.fourth h2:hover {
+    color: lightseagreen;
+}
+
+.fifth h2:hover {
+    color: magenta;
+}
+
+.sixth h2:hover {
+    color: peru;
+}
+
+.seventh h2:hover {
+    color: royalblue;
+}
+
+/* Footer Area */
+
+.footer-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-top: 2px solid #00B0F0;
+}
+
+.social-media-links {
+    margin-bottom: 30px;
+}
+
+.social-media-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-links li {
+    list-style: none;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(Medium\ \(logo\).png);
+    background-position: 30px 0;
+    text-indent: -9999px;
+}
+
+.Medium a:hover {
+    background-position: 0 0;
+}
