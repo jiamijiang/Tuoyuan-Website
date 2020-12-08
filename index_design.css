@@ -18,8 +18,11 @@ header {
 }
 
 .logo {
-    max-width: 100%;
     margin-bottom: 80px;
+}
+
+.logo img {
+    max-width: 100%;
 }
 
 /* Group*/
