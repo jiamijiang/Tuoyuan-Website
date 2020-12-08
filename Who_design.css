@@ -99,6 +99,7 @@ h4 {
 }
 
 .bio {
+    text-align: center;
 }
 
 .bio img {
@@ -122,6 +123,7 @@ h4 {
 @media screen and (min-width: 700px) {
     .bio {
         display: flex;
+        text-align: left;
     }
 }
 
