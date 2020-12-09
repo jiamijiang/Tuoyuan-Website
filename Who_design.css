@@ -21,6 +21,10 @@ header {
     margin-bottom: 80px;
 }
 
+.logo img {
+    max-width: 100%;
+}
+
 /* Group*/
 .group:before,
 .group:after {
